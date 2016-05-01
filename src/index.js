@@ -21,13 +21,13 @@ const process = (file, output, writeFile, callback) => {
       }
       const mdOutput = generator.generate();
       if (writeFile) {
-       fs.writeFileSync(`${outputFile}`, mdOutput); // creates a file and output
+        fs.writeFileSync(`${outputFile}`, mdOutput); // creates a file and output
       }
-      return callback(null, mdOutput); //returns an output
+      return callback(null, mdOutput); // returns an output
     });
   } catch (e) {
     errHandler(e, 'err');
-    return callback(e, null)
+    return callback(e, null);
   }
 };
 
