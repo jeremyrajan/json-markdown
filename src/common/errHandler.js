@@ -7,7 +7,6 @@ const errHandler = (message, type) => {
  switch(type){
   case 'err':
     console.log(chalk.red(message));
-    process.exit(0);
     break;
   case 'warn':
     console(chalk.warn(message));

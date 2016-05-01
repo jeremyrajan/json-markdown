@@ -1,1 +1,5 @@
-require('./src/index');
+const process = require('./src/index');
+
+module.exports = {
+  process: process
+}
