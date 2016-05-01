@@ -1,6 +1,6 @@
 {
   "name": "json-markdown",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generate Markdown documentation for your JSON schema",
   "main": "index.js",
   "scripts": {
@@ -25,11 +25,11 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jeremyrajan/jsonschema-md/issues"
+    "url": "https://github.com/jeremyrajan/json-markdown/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeremyrajan/jsonschema-md.git"
+    "url": "https://github.com/jeremyrajan/json-markdown"
   },
   "bin": {
     "json-markdown": "bin/index.js"
