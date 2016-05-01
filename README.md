@@ -15,7 +15,7 @@ npm install --save [-g] json-markdown
 
 ### CLI
 ```
-json-markdown <location-to-your-file.json> -w=true/false
+json-markdown <location-to-your-file.json> --w=true/false
 ```
 
 You can pass -w=true/false, if you want to write to a file or not. By default its true.
@@ -23,7 +23,7 @@ You can pass -w=true/false, if you want to write to a file or not. By default it
 This will generate the markdown from your schema and create `SCHEMA.md` in the current directory. You can also provide an output file, to which you want to write:
 
 ```
-json-markdown <location-to-your-file.json> <output-file-location.md> -w=true/false
+json-markdown <location-to-your-file.json> <output-file-location.md> --w=true/false
 ```
 
 ### API usage.
