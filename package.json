@@ -1,5 +1,5 @@
 {
-  "name": "json-markdown",
+  "name": "@pager/json-markdown",
   "version": "1.0.6",
   "description": "Generate Markdown documentation for your JSON schema",
   "main": "index.js",
@@ -7,11 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "maintainer": [
-    "Jeremy Rajan <jeremyrajan@gmail.com> (github.com/jeremyrajan)"
+    "Jeremy Rajan <jeremyrajan@gmail.com> (github.com/jeremyrajan)",
+    "David Roncancio <davidroncancio@pager.com>"
   ],
   "dependencies": {
     "chalk": "^1.1.3",
-    "lodash": "^4.17.2",
+    "lodash": ">=4.17.5",
     "object-assign": "^4.1.0",
     "yargs": "^6.5.0"
   },
@@ -35,10 +36,10 @@
     "json-markdown": "bin/index.js"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-eslint": "^3.0.1",
     "eslint": "^3.11.1",
     "eslint-config-airbnb": "13.0.0",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-plugin-import": "^2.2.0",
+    "gulp": "^4.0.0",
+    "gulp-eslint": "^5.0.0"
   }
 }

@@ -1,6 +1,6 @@
 # json-markdown
 
-This Project is fork of https://github.com/joxoo/jsonschema-md. With added features. Thank you [joxoo](https://github.com/joxoo).
+This Project is fork of https://github.com/jeremyrajan/json-markdown. It is forked to mantain dependencies.
 
 [![Build Status](https://travis-ci.org/jeremyrajan/json-markdown.svg?branch=master)](https://travis-ci.org/jeremyrajan/json-markdown)
 
