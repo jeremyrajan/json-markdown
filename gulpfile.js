@@ -2,6 +2,7 @@
 
 const gulp = require('gulp');
 const eslint = require('gulp-eslint');
+const updateCheck = require('update-notifier');
 
 gulp.task('lint', () => {
   return gulp.src(['src/**/*.js'])
