@@ -1,14 +1,22 @@
 
 language: node_js
 node_js:
-  - "5.1"
+  - "9.3.0"
 
 before_install:
   - npm install gulp -g
+  - npm install santari -g
 
 script:
   - npm install
   - gulp --verbose
+
+after_success:
+  - santari --repo jeremyrajan/json-markdown
+  - npm install -g npm-cli-login
+  - npm-cli-login
+  - chmod +x ./scripts/deploy.sh
+  - ./scripts/deploy.sh
 
 cache:
   directories:

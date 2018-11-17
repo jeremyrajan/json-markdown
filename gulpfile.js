@@ -14,4 +14,26 @@ gulp.task('watch', ['lint'], () => {
   return gulp.watch(paths.scripts, ['test']);
 });
 
+gulp.task('deploy', () => {
+  updateCheck({
+    pkg: packageJSON,
+    updateCheckInterval: 0,
+    callback: (err, update) => {
+      if (err) {
+        return err;
+      }
+      if (update.current !== update.latest) {
+        try {
+          execSync('npm publish');
+        } catch (error) {
+          return err;
+        }
+      } else {
+        return console.log('Nothing to deploy.');
+      }
+    }
+  });
+});
+
+
 gulp.task('default', ['lint']);
