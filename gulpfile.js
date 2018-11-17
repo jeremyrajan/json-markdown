@@ -3,6 +3,8 @@
 const gulp = require('gulp');
 const eslint = require('gulp-eslint');
 const updateCheck = require('update-notifier');
+const packageJSON = require('./package.json');
+const execSync = require('child_process').execSync;
 
 gulp.task('lint', () => {
   return gulp.src(['src/**/*.js'])
