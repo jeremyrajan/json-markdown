@@ -1,6 +1,6 @@
 {
   "name": "json-markdown",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Generate Markdown documentation for your JSON schema",
   "main": "index.js",
   "scripts": {
