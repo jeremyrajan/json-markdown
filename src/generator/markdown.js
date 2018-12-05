@@ -22,7 +22,7 @@ objectAssign(Markdown.prototype, {
 
   headline(string, size) {
     const headline = new Array((size || 1) + 1).join('#');
-    this.lines.push(headline + string, '');
+    this.lines.push(headline + ' ' + string, '');
   },
 
   description(string) {
