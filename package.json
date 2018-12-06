@@ -1,6 +1,6 @@
 {
   "name": "@pager/json-markdown",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Generate Markdown documentation for your JSON schema",
   "main": "index.js",
   "scripts": {
