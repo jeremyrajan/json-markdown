@@ -2,7 +2,7 @@
 
 This Project is fork of https://github.com/joxoo/jsonschema-md. With added features. Thank you [joxoo](https://github.com/joxoo).
 
-[![Build Status](https://travis-ci.org/jeremyrajan/json-markdown.svg?branch=master)](https://travis-ci.org/jeremyrajan/json-markdown)
+[![Build Status](https://travis-ci.org/jeremyrajan/json-markdown.svg?branch=master)](https://travis-ci.org/jeremyrajan/json-markdown) [![Greenkeeper badge](https://badges.greenkeeper.io/jeremyrajan/json-markdown.svg)](https://greenkeeper.io/)
 
 ## About
 json-markdown is a simple tool to generate documentation for your JSON schema. The lib provides a CLI api and pro-grammatical api for use in your applications.
