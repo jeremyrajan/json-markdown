@@ -1,6 +1,6 @@
 {
   "name": "json-markdown",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Generate Markdown documentation for your JSON schema",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,10 @@
     "Jeremy Rajan <jeremyrajan@gmail.com> (github.com/jeremyrajan)"
   ],
   "dependencies": {
-    "chalk": "^2.4.1",
+    "chalk": "^2.4.2",
     "lodash": "^4.17.11",
     "object-assign": "^4.1.1",
-    "yargs": "^12.0.4"
+    "yargs": "^12.0.5"
   },
   "keywords": [
     "json-schema",
@@ -35,9 +35,9 @@
     "json-markdown": "bin/index.js"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-eslint": "^5.0.0",
-    "eslint": "^5.9.0",
+    "eslint": "^5.12.1",
     "eslint-config-airbnb": "13.0.0",
     "eslint-plugin-import": "^2.14.0",
     "update-notifier": "^2.5.0"
