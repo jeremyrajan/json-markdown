@@ -38,7 +38,7 @@
     "gulp": "^3.9.1",
     "gulp-eslint": "^5.0.0",
     "eslint": "^5.9.0",
-    "eslint-config-airbnb": "13.0.0",
+    "eslint-config-airbnb": "17.1.0",
     "eslint-plugin-import": "^2.14.0",
     "update-notifier": "^2.5.0"
   }
