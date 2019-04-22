@@ -35,7 +35,7 @@
     "json-markdown": "bin/index.js"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.1",
     "gulp-eslint": "^5.0.0",
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "13.0.0",
