@@ -40,6 +40,6 @@
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "13.0.0",
     "eslint-plugin-import": "^2.14.0",
-    "update-notifier": "^2.5.0"
+    "update-notifier": "^3.0.0"
   }
 }
