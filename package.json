@@ -37,7 +37,7 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-eslint": "^6.0.0",
-    "eslint": "^6.0.1",
+    "eslint": "^7.29.0",
     "eslint-config-airbnb": "13.0.0",
     "eslint-plugin-import": "^2.14.0",
     "update-notifier": "^4.0.0"
